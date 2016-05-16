@@ -1,0 +1,31 @@
+{
+    "name": "mihaildev/yii2-backend-theme",
+    "keywords": ["yii", "backend", "theme", "adminlte"],
+    "description": "Yii2 Backend Theme (AdminLTE)",
+    "homepage": "https://github.com/MihailDev/yii2-backend-theme",
+    "license": "BSD-3-Clause",
+    "minimum-stability":"stable",
+    "authors": [
+        {
+            "name": "Mihail",
+            "email": "mihail.kucher@gmail.com",
+            "homepage": "https://github.com/MihailDev",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"mihaildev\\backendTheme\\": ""}
+    },
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "dmstr/yii2-adminlte-asset" : "2.*"
+
+    },
+    "extra": {
+      "asset-installer-paths": {
+        "npm-asset-library": "vendor/npm",
+        "bower-asset-library": "vendor/bower"
+      }
+    }
+}
