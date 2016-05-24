@@ -4,6 +4,7 @@
     "description": "Yii2 Backend Theme (AdminLTE)",
     "homepage": "https://github.com/MihailDev/yii2-backend-theme",
     "license": "BSD-3-Clause",
+    "type": "yii2-extension",
     "minimum-stability":"stable",
     "authors": [
         {
