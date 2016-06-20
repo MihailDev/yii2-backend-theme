@@ -44,7 +44,7 @@ $this->beginPage() ?>
                     <?php echo $this->render($layout->getComponent()->getTemplate('main.block.navbar'), [
                         'layout' => $layout
                     ]);?>
-                    <?php if($layout->params['mainSettings']['enable']){?>
+                    <?php if($layout->params['mainSettingsEnable']){?>
                     <!-- Control Sidebar Toggle Button -->
                     <li>
                         <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
